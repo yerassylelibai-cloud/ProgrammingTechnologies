@@ -1,6 +1,6 @@
 # grades = {}
-# with open('C:\\Users\\1\\Desktop\\test.txt') as f:
-#     print(f.read())
+# with open('test.txt') as f:
+#     # print(f.read())
 #     # file = open('C:\\Users\\1\\Desktop\\test.txt')
 #     # file.
 #     # f.close()
@@ -16,21 +16,21 @@
 # import csv
 #
 # students = []
-# with open('') as f:
+# with open('testcsv.csv') as f:
 #     reader = csv.DictReader(f)
 #     for row in reader:
 #         students.append(row)
 # print(students)
 
 # wb = load_workbook('students.xlsx')
-# sheet = wb.activeC:\\Users\\1\\Desktop\\testcsv.csv
+# sheet = wb.active
 # students = {}
 # for row in sheet.iter_rows(min_row=2, values_only=True):
 #     name, age = row
 #     students[name] = age
 
 import json
-with open('C:\\Users\\1\\Desktop\\data.json') as f:
+with open('data.json') as f:
     data = json.load(f)
 print(data)
 with open('summary.json','w', encoding='utf-8') as f:
