@@ -1,17 +1,12 @@
-# grades = {}
-# with open('test.txt') as f:
-#     # print(f.read())
-#     # file = open('C:\\Users\\1\\Desktop\\test.txt')
-#     # file.
-#     # f.close()
-#     for line in f:
-#         name, grade = line.strip().split(',')
-#         grades[name] = int(grade)
-#     print(grades)
-# file = open('C:\\Users\\1\\Desktop\\test.txt')
-# file.writable()
-# file.write(file.)
-# file.close()
+grades = {}
+with open('test.txt') as f:
+    for line in f:
+        name, grade = line.strip().split(',')
+        grades[name] = int(grade)
+    print(grades)
+with open('test.txt', 'a') as fileWrite:
+    fileWrite.write("Test3,90\n")
+    fileWrite.write("Test2,85\n")
 
 # import csv
 #
@@ -29,12 +24,12 @@
 #     name, age = row
 #     students[name] = age
 
-import json
-with open('data.json') as f:
-    data = json.load(f)
-print(data)
-with open('summary.json','w', encoding='utf-8') as f:
-    json.dump(data, f, indent=4)
+# import json
+# with open('data.json') as f:
+#     data = json.load(f)
+# print(data)
+# with open('summary.json','w', encoding='utf-8') as f:
+#     json.dump(data, f, indent=4)
 
 
 
