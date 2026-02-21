@@ -1,0 +1,10 @@
+[
+  {"name": "Alice", "age": 20, "grade": 92, "city": "Almaty"},
+  {"name": "Bob", "age": 22, "grade": 78, "city": "Astana"},
+  {"name": "Charlie", "age": 21, "grade": 85, "city": "Almaty"},
+  {"name": "Diana", "age": 19, "grade": 95, "city": "Shymkent"},
+  {"name": "Eve", "age": 23, "grade": 88, "city": "Almaty"},
+  {"name": "Frank", "age": 20, "grade": 72, "city": "Astana"},
+  {"name": "Grace", "age": 21, "grade": 91, "city": "Almaty"},
+  {"name": "Henry", "age": 24, "grade": 65, "city": "Aktobe"}
+]

@@ -1,0 +1,5 @@
+{"level": "INFO", "message": "Server started", "timestamp": "2025-02-21T10:00:00"}
+{"level": "WARNING", "message": "High memory usage", "timestamp": "2025-02-21T10:05:00"}
+{"level": "ERROR", "message": "Connection failed", "timestamp": "2025-02-21T10:10:00"}
+{"level": "INFO", "message": "Request processed", "timestamp": "2025-02-21T10:15:00"}
+{"level": "DEBUG", "message": "Cache hit", "timestamp": "2025-02-21T10:20:00"}
